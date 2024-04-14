@@ -31,9 +31,12 @@ Servidor:
 
 Un ejemplo puede ser un cliente solicita saber que precio tiene un articulo dentro de amazon entonces busca en la pagina y el servidor es el que cumple en evaluar los detalles de la petición y la cumple devolviendole la información al cliente 
 
+---
+
 Pago por uso  
 Esto aparece en el video a lo que se refiere es que solo se paga por lo que se necesita o usa algo que enfatizaban eran las instancias a lo que se refiern de instancias era hacia el espacio o capacidad de consulta de peticiones esto puede ayudar a no tener que pagar mucho dinero si no tiene que usar mucho nivel de computo como lo puede ser en el lado del servidor si una empresa tiene un servidor fisicio tendria que ampliar las capacidades de este servidor en cambio en aws solamente tendria que decir que tanto más necesita y amazon se encargaria de generar dichos recursos y se cobra como dije anteriormente por lo que se usa
 
+---
 
 Computo en la nube
 Entrega de recursos bajo recursos como lo hablaba anteriormente se utiliza lo que se necesita.
@@ -48,6 +51,7 @@ Herramientas de administración de recursos preferidos: en el video hablaban que
 
 Requisitos de infraestructura de TI heredadas: En el caso de que exista infraestructura heredada se debe llevar a una migrar o hacer una integracón exitossa de la nube. Esto puede ser aspectos de compatibilidad en sistemas existentes y otros factores que deben ser considerados al trasladar la infraestructura heredada a la nube.
 
+---
 
 Hay tres modelos de implementación de computo en la nube las cuales son:
 
@@ -57,4 +61,18 @@ El modelo de implemantacion basado en la nube lo que hace es migrar las aplicaci
 
 Implementación en las instalaciones
 
+Este modelo se basa en implementar una nube privada. En este caso se implementa los recursos en las instalaciones mediante herramientas de virtualización y administracion de recursos 
 
+Implementación híbrida
+
+La implementación hibrida es la implementación de nube publica y nube privada lo cual hace que si la empreza ya tiene ciertos servicios en un servidor local es decir privado pero necesitan mayor capacidad en su servicio o en otros puede utilizar este servicio publico que en este caso estamos manejando aws 
+
+---
+
+Que beneficios tiene la nube
+
+Gastos iniciales a gastos variables: los gastos iniciales se refiere a servidores fiscos en los que hay que invertir en antes de utilizar y el uso variable se refiere a que solo paga por lo que usa
+
+Dejar de gastar dinero en ejecución y en mantenimiento en centros de datos: Esto es una gran ayuda para el bolsillo ya que al tener una nube publica no es necesario que se tenga que pagar por si algo se estropeo eso se encarga el servicio que se adquiera es decir aws si se daño un servidor no pasa nada por que la información esta desentralizada de esto se hablara mas adelante 
+
+Dejar de advinar cuanta capacidad se necesitara: Esto lo que permite es ahorra dinero ya que no se esta utilizando todo el tiempo un nivel de computo alto si no que es variado lon cual hace que podamos ahorrar dinero
